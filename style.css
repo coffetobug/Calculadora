@@ -1,0 +1,125 @@
+/* =========================================
+   1. ESTILOS GERAIS (RESET)
+   Limpa margens e define a fonte padrão
+============================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px 10px;
+    background-color: #034660; 
+}
+
+/* =========================================
+    O CORPO DA CALCULADORA
+============================================ */
+.calculadora {
+    background-color: #000000; 
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); 
+    width: 320px; 
+}
+
+/* =========================================
+    O DISPLAY (A TELA)
+============================================ */
+#display {
+    width: 100%;
+    height: 80px;
+    background-color: transparent; 
+    border: none;
+    color: #ffffff; 
+    text-align: right; 
+    font-size: 48px; 
+    padding: 10px 20px;
+    margin-bottom: 20px; 
+    outline: none; 
+}
+
+/* =========================================
+    A GRADE DE BOTÕES (GRID)
+============================================ */
+.buttons {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 9px;
+}
+.delet{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+/* =========================================
+    ESTILOS BASE PARA TODOS OS BOTÕES
+============================================ */
+button {
+    height: 60px; 
+    border: none;
+    border-radius: 100px; 
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.2s ease; 
+    outline: none;
+}
+
+button:hover {
+    filter: brightness(120%);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* =========================================
+    ESTILOS ESPECÍFICOS POR CLASSE
+============================================ */
+
+
+.botão_número {
+    background-color: #3c4043; 
+    color: #e8eaed; 
+}
+
+
+.botão_operador {
+    background-color: #f29900; 
+    color: #ffffff; 
+    font-size: 28px; 
+}
+
+.botão_limpar {
+    background-color: #dadce0; 
+    color: #202124; 
+}
+
+
+.botão_igual {
+    background-color: #8ab4f8; 
+    color: #202124;
+}
+
+/* =========================================
+    AJUSTES ESPECIAIS DE LAYOUT (GRID)
+============================================ */
+
+
+#Limpar {
+    grid-column: span 3;
+}
+
+
+button.botão_número:nth-last-child(4) { 
+    grid-column: span 2;
+}
