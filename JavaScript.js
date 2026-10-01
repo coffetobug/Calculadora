@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const botoesOperadores = document.querySelectorAll('.botão_operador');
   const botaoLimpar = document.getElementById('Limpar');
   const botaoIgual = document.getElementById('igual');
+  const botaoDelete = document.getElementetById('excluir_');
 
   let expressao = '';
 
@@ -41,11 +42,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  ///////////////////////////////// Botão Limpar (C)/////////////////////////////////
+  ///////////////////////////////// Botão Limpar (AC)/////////////////////////////////
   botaoLimpar.addEventListener('click', () => {
     expressao = '';
     display.value = '0';
   });
+  ///////////////////////////////// Botão REMOVE O ÚLTMO CARACTERE /////////////////////////////////
+   botaoDelete.addEventListener('click', () => {
+     if (expressao === '') return;
+   //REMOVE O ÚLTIMO CARACTERE
+     expressao = expressao.slice(0, -1);
+   //SE FICAR VAZRIO, MOSTRE '0', SE NÃO A EXPRESSÃO ATUALIZADA
+     if (expressao === '') {
+       display.value = '0';
+     } else {
+       display.value = expressao;
+   }
+   });
+
   /////////////////////////////////4. Botão Igual (=)/////////////////////////////////
   botaoIgual.addEventListener('click', () => {
     if (expressao === '') return;
