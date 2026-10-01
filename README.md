@@ -1,5 +1,5 @@
 <p aling="center">
-<img src= "./mog.gif"  width="400px"></p> 
+<img src= "mog.gif"  width="400px"></p> 
 
 
 CALCULADORA
