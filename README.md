@@ -1,4 +1,5 @@
-![Demonstração](./mog.gif)
+<p aling="center">
+<video src ="./mog.mp4" autoplay loop muted playsinlne width="400px"></video> 
 
 
 CALCULADORA
