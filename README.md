@@ -1,5 +1,5 @@
 <p aling="center">
-<img src= "https://github.com/user-attachments/assets/699b0b3c-85d1-484e-8bad-5fd334d6829a"  width="400px"></p> 
+<img src= "./mog.gif"  width="400px"></p> 
 
 
 CALCULADORA
