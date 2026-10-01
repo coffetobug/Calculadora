@@ -1,5 +1,4 @@
-<p aling="center">
-<img src= "mog.gif"  width="400px"></p> 
+![Demonstração](./mog.gif)
 
 
 CALCULADORA
