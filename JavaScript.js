@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
   const display = document.getElementById('display');
   const botoesNumeros = document.querySelectorAll('.botão_número');
@@ -85,5 +84,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
-
-
