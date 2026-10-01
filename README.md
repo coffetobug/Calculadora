@@ -1,5 +1,5 @@
 
-<img src ="https://github.com/user-attachments/assets/18d707e3-b171-4c24-99e8-ab2e61310a53](https://pin.it/7sqlyG7cB)](https://github.com/user-attachments/assets/241a88bd-e2ef-44c0-91fc-ef894db31c4a" controls width="400px"></img> 
+<img src ="https://github.com/user-attachments/assets/fabdda1e-ed89-4e40-a36f-3e50c0068c1e" controls width="400px"></img> 
 
 
 CALCULADORA
