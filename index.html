@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title> 
+<link rel="stylesheet" href="style.css">
+<script src="JavaScript.js"></script>
+</head>
+<body>
+<!-- ==================================================================================================================================================================================================================================== 
+___*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*___
+                                                                                                           CALCULADORA
+___*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*___
+=========================================================================================================================================================================================================================================  -->
+ <div class="calculadora">
+        <input type="text" id="display" readonly value="0">
+   
+<!--*--*_________________________ 
+
+             BOTÃO LIMPAR 
+        ___________________________*--*-->
+
+    <div class="buttons">           
+        <button id="excluir_" class="botão_delete">
+            X
+        </button>
+        <button id="Limpar" class="botão_limpar"> 
+            AC 
+        </button>        
+        <button class="botão_operador">
+            /
+        </button>
+<!--*--* _________________________ 
+ 
+             BOTÃO 7 a 9 
+        ___________________________*--*-->
+        <button class="botão_número">
+            7
+        </button>
+        <button class="botão_número">
+            8
+        </button>
+        <button class="botão_número">
+            9
+        </button>
+<!--*--* _______________________
+ 
+             BOTÃO MULTIPLICAÇÃO
+        ________________________*--*-->
+    <button class="botão_operador">
+        x
+    </button>
+<!--*--* ___________________________
+             
+              BOTÃO 4 a 6 
+         __________________________*--*-->
+    <button class="botão_número">
+        4
+    </button>
+    <button class="botão_número">
+        5
+    </button>
+    <button class="botão_número">
+        6
+    </button>
+<!--*--* ________________________ 
+
+             BOTÃO DIVISÃO 
+         _________________________ *--*-->
+    <button class="botão_operador">
+        -
+    </button>
+<!-- ____________________________ 
+ 
+             BOTÃO 1 a 3 
+        ___________________________ *--*-->
+    <button class="botão_número">
+        1
+    </button>
+    <button class="botão_número">
+        2
+    </button>
+    <button class="botão_número">
+        3
+    </button>
+<!-- *--*________________________ 
+ 
+             BOTÃO ADIÇÃO 
+        __________________________ *--*-->
+    <button class="botão_operador">
+        +
+    </button>
+<!-- *--*_______________________ 
+ 
+             BOTÃO 0 & VíRGULA 
+        ______________________ *--*-->
+    <button class="botão_número">
+        0
+    </button>
+    <button class="botão_número">
+        .
+    </button>
+<!-- *--*________________________ 
+ 
+             BOTÃO IGUAL 
+        __________________________ *--*-->
+    <button id="igual" class="botão_igual">
+        =
+    </button>
+    </div>
+ </div>
+</body>
