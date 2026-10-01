@@ -8,12 +8,12 @@ Tecnologias
 -CSS
 -HTML
 
-##FUNCIONALIDADES##
+--FUNCIONALIDADES--
 -OPERADORES BÁSICOS: 
 Adição, Subtração, Multiplicação, Divisão
 
-##INTERFACE##
+--INTERFACE--
 -Design Limpo e agradável de usar
 
-##ALTA PERFORMACE##
+--ALTA PERFORMACE--
 -Respostas instantâneas aos comandos 
