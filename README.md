@@ -1,5 +1,5 @@
 <p align="center">
-<img src ="assets/gif.gif " width="100%"></img> 
+<img src ="assets/gif.gif " width="90%"></img> 
 </p>
 
 **CALCULADORA**
