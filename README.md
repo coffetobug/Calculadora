@@ -1,6 +1,6 @@
-
-<img src ="assets/gif.gif"></img> 
-
+<p align="center">
+<img src ="assets/gif.gif " width="100%"></img> 
+</p>
 
 **CALCULADORA**
 Tecnologias
