@@ -1,19 +1,23 @@
 <p align="center">
 <img src ="assets/gif.gif " width="90%"></img> 
 </p>
+# 🧮 Calculadora Web
 
-**CALCULADORA**
-Tecnologias
--JAVASCRIPT
--CSS
--HTML
+Uma calculadora simples, rápida e funcional desenvolvida com foco em uma interface intuitiva e respostas instantâneas.
 
---FUNCIONALIDADES--
--OPERADORES BÁSICOS: 
-Adição, Subtração, Multiplicação, Divisão
+##  Tecnologias Utilizadas
 
---INTERFACE--
--Design Limpo e agradável de usar
+* **HTML5** — Estruturação semântica dos elementos.
+* **CSS3** — Estilização moderna e layout responsivo.
+* **JavaScript** — Lógica de cálculo e manipulação dinâmica do DOM.
 
---ALTA PERFORMACE--
--Respostas instantâneas aos comandos 
+## Funcionalidades
+
+* **Operadores Básicos:** Suporte completo para adição (`+`), subtração (`-`), multiplicação (`×`) e divisão (`÷`).
+* **Interface Limpa:** Design minimalista e agradável, pensado para facilitar a visualização e o uso.
+* **Alta Performance:** Execução leve diretamente no navegador, garantindo respostas instantâneas a cada comando.
+
+## Como executar o projeto
+
+1. Clone este repositório ou baixe os arquivos.
+2. Abra o arquivo `index.html` diretamente no seu navegador de preferência.
